@@ -1,0 +1,15 @@
+body{
+   margin: 0px;    
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+.head{
+    background-color: blue;
+    font-size: 100px;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
