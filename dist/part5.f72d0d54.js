@@ -19791,23 +19791,32 @@ function Body() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                    type: "text",
-                    placeholder: "type here",
-                    value: count,
-                    onChange: (e)=>setcount(e.target.value)
-                }, void 0, false, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "inputbox",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                            type: "text",
+                            placeholder: "type here",
+                            value: count,
+                            onChange: (e)=>setcount(e.target.value)
+                        }, void 0, false, {
+                            fileName: "component/body.js",
+                            lineNumber: 24,
+                            columnNumber: 18
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            onClick: (e)=>fetching(Number(count)),
+                            children: "Search"
+                        }, void 0, false, {
+                            fileName: "component/body.js",
+                            lineNumber: 25,
+                            columnNumber: 18
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "component/body.js",
                     lineNumber: 23,
-                    columnNumber: 18
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    onClick: (e)=>fetching(Number(count)),
-                    children: "search"
-                }, void 0, false, {
-                    fileName: "component/body.js",
-                    lineNumber: 24,
-                    columnNumber: 18
+                    columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "profiles",
@@ -19819,14 +19828,14 @@ function Body() {
                                     src: value.avatar_url
                                 }, void 0, false, {
                                     fileName: "component/body.js",
-                                    lineNumber: 31,
+                                    lineNumber: 33,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                                     children: value.login
                                 }, void 0, false, {
                                     fileName: "component/body.js",
-                                    lineNumber: 32,
+                                    lineNumber: 34,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -19834,19 +19843,19 @@ function Body() {
                                     children: "Profile Link"
                                 }, void 0, false, {
                                     fileName: "component/body.js",
-                                    lineNumber: 33,
+                                    lineNumber: 35,
                                     columnNumber: 21
                                 }, this)
                             ]
                         }, value.id, true, {
                             fileName: "component/body.js",
-                            lineNumber: 30,
+                            lineNumber: 32,
                             columnNumber: 21
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "component/body.js",
-                    lineNumber: 26,
+                    lineNumber: 28,
                     columnNumber: 13
                 }, this)
             ]

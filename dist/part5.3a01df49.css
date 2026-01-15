@@ -27,4 +27,23 @@ img {
   gap: 20px;
   display: flex;
 }
+
+.inputbox {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 40vw;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+}
+
+button {
+  height: 50px;
+  margin-left: 20px;
+  position: relative;
+  bottom: 5px;
+}
 /*# sourceMappingURL=part5.3a01df49.css.map */

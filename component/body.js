@@ -20,8 +20,10 @@ function Body(){
           <>
          
             <div>
+                <div className="inputbox">
                  <input type="text" placeholder="type here" value={count} onChange={(e)=>setcount(e.target.value)}></input>
-                 <button onClick={(e)=>fetching(Number(count))}>search</button>
+                 <button onClick={(e)=>fetching(Number(count))}>Search</button>
+                 </div>
             
             <div className="profiles">
             {

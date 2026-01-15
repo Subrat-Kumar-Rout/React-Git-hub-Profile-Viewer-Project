@@ -29,3 +29,22 @@ img{
     flex-wrap: wrap;
     gap: 20px;
 }
+.inputbox{
+    margin-left: 40vw;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+input{
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    
+}
+
+button{
+    height: 50px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 5px;
+}
