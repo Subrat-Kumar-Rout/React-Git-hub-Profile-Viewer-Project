@@ -27,7 +27,7 @@ function Body(){
             {
             render.map((value)=>{
                 return(
-                    <div key={value.id}>
+                    <div key={value.id} className="card">
                     <img src={value.avatar_url}></img>
                     <h2>{value.login}</h2>
                     <a href={value.html_url}>Profile Link</a>
